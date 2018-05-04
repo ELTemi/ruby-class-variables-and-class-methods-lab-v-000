@@ -7,7 +7,7 @@ class Song
   @@artist = []
   @@genre = []
 
-  def self.artists(artist)
+  def self.artists
     @@artist << artist if self.artist != self
   end
 
