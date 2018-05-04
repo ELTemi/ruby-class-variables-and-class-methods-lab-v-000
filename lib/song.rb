@@ -8,7 +8,9 @@ class Song
   @@genre = []
 
   def self.artists
-    @@artist
+    if self.unique
+      @@artist << self
+    end
   end
 
   def initialize(name, artist, genre)
