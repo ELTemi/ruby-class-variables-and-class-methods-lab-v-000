@@ -7,9 +7,7 @@ class Song
   @@artists = []
   @@genres = []
 
-  def self.artists
-    @@artists << @artist if @@artists.include?(@artist) == false
-  end
+
 
   def initialize(name, artist, genre)
     @name = name
