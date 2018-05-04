@@ -21,6 +21,6 @@ class Song
   end
 
   def self.artists
-    @@artists.collect {|artist| artist.uniq}
+    @@artists.uniq!
   end
 end
