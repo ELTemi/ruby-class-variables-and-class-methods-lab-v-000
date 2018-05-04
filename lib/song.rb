@@ -8,8 +8,8 @@ class Song
   @@genre = []
 
   def self.artists
-    if self.uniq
-      @@artist << self
+    if artist.uniq
+      @@artist <<
     end
   end
 
