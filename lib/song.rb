@@ -5,7 +5,7 @@ class Song
 
   @@count = 0
   @@artists = []
-  @@genre = []
+  @@genres = []
 
   def self.artists
     @@artists << @artist if @@artists.include?(@artist) == false
