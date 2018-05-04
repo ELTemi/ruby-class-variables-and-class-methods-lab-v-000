@@ -8,7 +8,7 @@ class Song
   @@genre = []
 
   def self.artists
-    @@artists << self.artists if @@artists.include?(self.artists) == false
+    @@artists << @artist if @@artists.include?(@artist) == false
   end
 
   def initialize(name, artist, genre)
