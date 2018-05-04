@@ -27,4 +27,10 @@ class Song
   def self.genres
     @@genres.uniq!
   end
+
+  def self.genre_count(genre, num)
+    num = 0
+    
+    genre_count[genre] = 
+  end
 end
